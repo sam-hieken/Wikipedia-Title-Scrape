@@ -1,5 +1,5 @@
 # Wikipedia-Title-Scrape
-A simple python script to scrape all article titles from Wikipedia (ns0, 500 titles at a time), and print each to stdout (separated by \n).
+A simple, Unix pipe style python script to scrape all article titles from Wikipedia (ns0, 500 titles at a time), and print each to stdout (separated by \n).
 
 It's recommended to use a background job, and redirect stdout and stderr; the recommended command is:
 
